@@ -1,0 +1,79 @@
+.footer {
+    margin-top: 200px;
+    height: max-content;
+    /* font-size: 120%; */
+    background: linear-gradient(220.16deg, #d89f0d -8%, #734500 138%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 28px 0px ;
+    margin-top: 40px;
+}
+.container_footer {
+    width: 1400px;
+}
+#column_2  {
+    padding-top: 10px;
+}
+#column_3 p:hover {
+    color:#b86104;
+}
+.footer_about {
+    padding-left: 5px;
+    transition: 0.3s;
+}
+.footer_about:hover {
+    color:#b86104;
+}
+.footer_column {
+    height: max-content;
+    max-width: 26%;
+    min-width: 245px;
+}
+.seti {
+    margin: 0 0.65%;
+    width: 39px;
+}
+.footer_about{
+    margin: 5px 0px;
+}
+.social {
+    padding: 10px 0;
+}
+.seti {
+    padding-right: 5px;
+}
+.phones h3 {
+    padding: 10px;
+}
+#column_1 {
+    padding-top: 10px;
+}
+@media screen and (max-width : 1198px) {
+
+    .footer {
+        /* font-size: 100%; */
+        padding: 28px 5%;
+        margin-top: 40px;
+    }
+
+    .seti {
+        margin: 0;
+        width: 39px;
+    }
+
+    .footer_about{
+        margin: 5px 0px;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Play:wght@400;700&display=swap');
+}
+
+
+
+@media screen and (max-width : 816px) {
+
+    .footer {
+        justify-content: space-between;
+    }
+}

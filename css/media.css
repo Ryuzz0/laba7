@@ -1,0 +1,25 @@
+
+@media (max-width:380px) {
+
+    .header h1 {
+     padding-left: 5px;
+    } 
+    .logo-ru {
+     padding-left: 5px;
+    }
+  .btn {
+     margin: 20px 8px
+  }
+  .nav-link {
+     font-size: 24px;
+ }
+ .text-about-as {
+    width: 280px;
+ }
+ .about-school-text {
+    width: 280px;
+ }
+ }
+
+
+

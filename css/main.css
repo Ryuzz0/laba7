@@ -1,0 +1,30 @@
+body {
+        background: url(../images/1389689084_898317e609f8e1593a690a8a6021395f_s.jpg); /* Путь к картинке */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* Закрепляем изображение */
+}
+
+.menu-picture {
+    max-width: 300px;
+    padding: 5px;
+    background-color: white;
+    margin: 20px;
+}
+.about-school-text {
+    color: white;
+}
+.caption {
+    color: white;
+}
+.menu-row {
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+

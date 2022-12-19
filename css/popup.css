@@ -1,0 +1,248 @@
+.Menu {
+    height: 65em;
+}
+.about_school {
+    margin: 5em 0;
+    padding: 20px 0 140px 0;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: fit-content;
+}
+.menu-picture {
+    float: left;
+}
+.about-school-text-menu {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.about-shool-row h3 {
+    margin-bottom: 10px;
+}
+
+.about-school-img {
+    margin-right: 3em;
+    margin-left:1em;
+}
+
+.about-school-text {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0 20px;
+}
+.about-school-text-menu {
+    padding: 20px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0 20px;
+    line-height: 30px;
+    color: white;
+    font-size: 1.2rem;
+    width: 900px;
+}
+.text-about-menu {
+    width: 900px;
+    padding: 20px;
+}
+.caption {
+    text-align: center;
+    text-transform: uppercase;
+    /* margin-bottom: 10px; */
+    margin: .5em 0;
+    padding: 0 0;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Muli', Verdana,  Tahoma, sans-serif;
+}
+
+
+.menu-picture {
+    max-width: 350px;
+}
+.about-school-text {
+    width: 800px;
+    line-height: 30px;
+}
+
+.text-about-menu {
+    width: 700px;
+    margin-left: 30px;
+}
+
+.menu-picture {
+    margin-left: 100px;
+}
+
+
+@media (max-width:1299px) {
+    .about-school-text-menu {
+        width: 600px;
+    }
+    .container-cafe {
+        width:800px;
+        margin: 0 auto;
+    }
+    .menu-picture {
+        margin: 0 auto;
+    }
+    .text-about-menu {
+        padding-left: 0px;
+    }
+    .text-about-menu {
+        width: 700px;
+        margin-left: 0px;
+    }
+}
+@media (max-width:840px) {
+    .about-school-text {
+        width: 500px;
+        line-height: 30px;
+    }
+    .Menu {
+        height:85em ;
+    }
+
+    .caption {
+        text-align: center;
+        text-transform: uppercase;
+        /* margin-bottom: 10px; */
+        /* margin: .5em 0; */
+        padding: 0 0;
+        font-weight: 600;
+        font-size: 40px;
+        font-family: 'Muli', Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .caption-black {
+        padding-bottom: 20px;
+    }
+    .about-school-text-menu {
+        max-width: 800px ;
+        padding:20px;
+    }
+
+}
+@media (max-width:800px) {
+    .text-about-menu {
+        width: 140%;
+    }
+    .caption {
+        font-size:30px;
+    }
+    .Menu {
+        height: 90em;
+    }
+    .menu-picture {
+        margin-top: 30px;
+    }
+    .menu-row {
+        width: 90vw;
+    }
+    .container-cafe {
+        width: 92vw;
+    }
+    .about-school-text-menu {
+        width: 90vw;
+    }
+}
+@media (max-width:540px) {
+    .about-school-text {
+        padding: 0 10px;
+        width: 400px;
+        line-height: 30px;
+    }
+    .caption {
+        text-align: center;
+        text-transform: uppercase;
+        /* margin-bottom: 10px; */
+        /* margin: .5em 0; */
+        padding: 0 0;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Muli', Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about-shool-row h3 {
+        margin-bottom: 20px;
+    }
+    .text-about-menu {
+        max-width: 90vw;
+    }
+    .about-school-text-menu {
+        max-width: 500px ;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width:520px) {
+    .about-school-text {
+        padding: 0 10px;
+        width: 350px;
+        line-height: 30px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .text-about-menu {
+        padding: 0 10px;
+        width: 300px;
+        line-height: 30px;
+    }
+    .menu-picture  {
+        float: none; /* Выравнивание по правому краю */
+    }
+    .caption {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0 0;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Muli', Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about-shool-row h3 {
+        margin-bottom: 20px;
+    }
+    .text-about-menu {
+        width: 300px;
+    }
+    .about-school-text-menu {
+        max-width: 340px ;
+        padding: 0 10px;
+    }
+    .menu-picture {
+        width: 300px;
+    }
+    .about-school-text {
+        width: 90vw;
+    }
+    .text-about-menu {
+        width: 90vw;
+    }
+    .Menu {
+        height:85em ;
+    }
+}
+
+@media (max-width:340px) {
+    .about-school-text-menu {
+        max-width: 280px ;
+        padding: 0 10px;
+    }
+ .menu-picture {
+        width: 280px;
+    }
+}
+
+
+.about-shool-row h3 {
+    margin-bottom: 50px;
+}
+.about-school-text {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.menu-img{
+    width: 400px;
+    margin-right: 40px;
+    height: 440px;
+}
+
